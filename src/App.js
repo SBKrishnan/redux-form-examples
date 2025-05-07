@@ -1,7 +1,12 @@
 import "./App.css";
+import ContactForm from "./pages/contactForm/ContactForm";
 
 function App() {
-  return <button className="btn btn-primary">button</button>;
+  return (
+    <>
+      <ContactForm />
+    </>
+  );
 }
 
 export default App;
